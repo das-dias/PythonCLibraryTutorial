@@ -1,0 +1,8 @@
+README.md
+setup.py
+lib/init.c
+lib/src/pyfputs.c
+pyfputs.egg-info/PKG-INFO
+pyfputs.egg-info/SOURCES.txt
+pyfputs.egg-info/dependency_links.txt
+pyfputs.egg-info/top_level.txt
