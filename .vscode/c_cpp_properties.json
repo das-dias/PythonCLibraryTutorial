@@ -1,0 +1,11 @@
+{
+  "configurations": [
+      {
+          "name": "PythonCLibraryTutorial",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/venv/include/python3.11/**"
+          ]
+      }
+  ]
+}
