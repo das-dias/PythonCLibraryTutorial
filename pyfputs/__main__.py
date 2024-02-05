@@ -1,7 +1,5 @@
 from pyfputs import fputs, ExampleClassWrapper
 
-import pdb
-
 if __name__ == "__main__":
   fputs("Hello, World!", "hello.txt")
   print("Wrote to hello.txt")
@@ -10,7 +8,6 @@ if __name__ == "__main__":
   print("Wrote to hello_from_exampleclass.txt")
   obj2 = ExampleClassWrapper()
   print("Current filename: ", obj2.filename)
-  pdb.set_trace()
   obj2.filename = "hello_from_exampleclass2.txt"
   obj2.fputs("Hello, World! From the ExampleClass! Again!")
   print("Wrote to hello_from_exampleclass2.txt")
