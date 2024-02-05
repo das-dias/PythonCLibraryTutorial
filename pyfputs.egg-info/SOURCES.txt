@@ -1,7 +1,14 @@
 README.md
 setup.py
+PyFputs.egg-info/PKG-INFO
+PyFputs.egg-info/SOURCES.txt
+PyFputs.egg-info/dependency_links.txt
+PyFputs.egg-info/top_level.txt
 lib/init.c
 lib/src/pyfputs.c
+pyfputs/__init__.py
+pyfputs/__main__.py
+pyfputs/example_class.py
 pyfputs.egg-info/PKG-INFO
 pyfputs.egg-info/SOURCES.txt
 pyfputs.egg-info/dependency_links.txt
