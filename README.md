@@ -95,7 +95,7 @@ To run the Python program, simply run the following command in the root director
 $ python pyfputs
 ```
 
-The [```__main__.py```](./pyfputs/__main__.py) file in the [```pyfputs```](./pyfputs) directory will be executed, creating three new files in the root directory of the repository: ```hello.txt```, ```hello_from_exampleclass.txt``` and ```hello_from_exampleclass2.txt```.
+The [```__main__.py```](./pyfputs/__main__.py) file in the [```pyfputs```](./pyfputs) directory will be executed, creating three new files in the root directory of the repository: ```hello.txt```, ```hello_from_exampleclass.txt``` and ```hello_from_exampleclass2.txt```. There will be stuff written in each of these files.
 
 ```python
 from pyfputs import fputs, ExampleClassWrapper

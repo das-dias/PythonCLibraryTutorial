@@ -54,7 +54,7 @@ PyObject *ExampleClass_get_filename(ExampleClass *self, void *closure) {
 }
 
 PyObject *ExampleClass_set_filename(ExampleClass *self, PyObject *args) {
-  char *new_filename = "none";
+  const char *new_filename = "none";
   if (!PyArg_ParseTuple(args, "s", &new_filename)) {
     Py_RETURN_NONE;
   }
