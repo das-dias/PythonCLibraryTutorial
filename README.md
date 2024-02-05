@@ -14,7 +14,8 @@ and how to use it in a Python program.
   - [Running the Python Program](#running-the-python-program)
 
 ## Introduction
-This tutorial is based on the [RealPython.com](https://realpython.com/build-python-c-extension-module/) tutorial for packaging a C Library in a Python module.
+This tutorial is based on the [RealPython.com](https://realpython.com/build-python-c-extension-module/) tutorial for packaging a C Library in a Python module. 
+Further extensions to the code were performed by following the stuff written at [the official Python docs](https://docs.python.org/3/extending/extending.html#building-arbitrary-values).
 This tutorial extends the previous by using a Python virtual environment together with a 
 [```Makefile```](./lib/Makefile) to tell the ```clang``` compiler where the Python header files are located.
 
